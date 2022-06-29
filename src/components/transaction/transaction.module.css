@@ -1,0 +1,18 @@
+.transaction {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+tr {
+    text-align: center;
+    height: 30px;
+    background-color: blanchedalmond;
+}
+
+th {
+    background-color: rgb(90, 90, 224);
+ }
+
+tr:nth-child(2n) {
+    background-color: #ffe1e1;
+}
