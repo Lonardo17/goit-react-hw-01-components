@@ -7,11 +7,10 @@
 .title {
     text-align: center;
     background-color: rgb(232, 234, 235);
-    /* margin: 0; */
     padding: 10px 0;
 }
 
-.statlist {
+.statisticsList {
     display: flex;
     flex-direction: row;
     padding: 0;

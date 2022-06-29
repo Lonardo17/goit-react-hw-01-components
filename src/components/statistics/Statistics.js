@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 import style from './statistics.module.css';
-// import getRandomHexColor from '../../js/randomColor';
+
 
 const Statistics = ({ title, data }) => {
   return (
     <section className={style.statistics}>
       {title && <h2 className={style.title}>{title}</h2>}
 
-      <ul className={style.statlist}>
+      <ul className={style.statisticsList}>
         {data.map(({ id, label, percentage }) => {
           return (
             <li
